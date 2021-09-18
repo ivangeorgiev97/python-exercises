@@ -18,22 +18,22 @@ print("===================================")
 
 print("Sets:")
 
-myFruits = {"apple", "watermelon", "cherry"}
-myFruits.add("pear")
-myFruits.update(["strawberry", "orange"])
-myFruits.remove("apple")
-# myFruits.discard("apple")
+my_fruits = {"apple", "watermelon", "cherry"}
+my_fruits.add("pear")
+my_fruits.update(["strawberry", "orange"])
+my_fruits.remove("apple")
+# my_fruits.discard("apple")
 
-print("cherry" in myFruits)
-print("strawberry" in myFruits)
+print("cherry" in my_fruits)
+print("strawberry" in my_fruits)
 
-for myFruit in myFruits:
-    print(myFruit)
+for my_fruit in my_fruits:
+    print(my_fruit)
 
-myFruits.clear()
+my_fruits.clear()
 
-print(myFruits)
+print(my_fruits)
 
-# del myFruits
+# del my_fruits
 
-# print(myFruits)
+# print(my_fruits)

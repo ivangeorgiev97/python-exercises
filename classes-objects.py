@@ -19,7 +19,7 @@ class MyClass(MainClass):
         return self.name
 
     def __del__(self):
-        print("object is removed!")
+        print("object is finally removed!")
 
     def introduce_me(self):
         print(f'My name is {self.name} and I am from {self.country} and hey my hobby is {MyClass.hobby}')
@@ -33,3 +33,13 @@ myObject.name = "Stoyan"
 myObject.introduce_me()
 
 print(myObject)
+
+class Animal:
+    def __init__(objhere, name):
+        objhere.name = name
+
+    def say_name(againreferncehere):
+        print ("Hey " + againreferncehere.name)
+
+a3 = Animal("Onqotnovagodina")
+a3.say_name()

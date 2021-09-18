@@ -1,11 +1,11 @@
 # Strings
-myName = 'Ivan Georgiev'
+my_name = 'Ivan Georgiev'
 
-print(myName[3:6])
-print(myName[::3])
-print(myName.upper())
-print(myName.split())
-print(myName.split('a'))
+print(my_name[3:6])
+print(my_name[::3])
+print(my_name.upper())
+print(my_name.split())
+print(my_name.split('a'))
 
 items = "First item: {}. Second item: {}".format("ball", "controller")
 items2 = "First item: {first}. Second item: {second}".format(first = "first item", second = "second item")
