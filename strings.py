@@ -1,6 +1,9 @@
 # Strings
 my_name = 'Ivan Georgiev'
 
+my_name_it = iter(my_name)
+
+print(next(my_name_it))
 print(my_name[3:6])
 print(my_name[::3])
 print(my_name.upper())

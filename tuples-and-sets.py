@@ -6,6 +6,10 @@ fruits = ("apple", "pear", "watermelon", "cherry", "strawberry")
 print(fruits)
 print(len(fruits))
 
+my_new_it = iter(fruits)
+print(next(my_new_it))
+
+
 for fruit in fruits:
     print(fruit)
 
