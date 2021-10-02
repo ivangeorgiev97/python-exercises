@@ -1,6 +1,7 @@
 import numpy
 import matplotlib.pyplot as pplt
 
+
 # uniform
 # numbers = numpy.random.uniform(6.0, 13.0, 60)
 

@@ -1,6 +1,7 @@
 import numpy
 from scipy import stats
 
+
 numbers = [13, 6, 24, 9, 24]
 
 # Mean
